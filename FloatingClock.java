@@ -10,45 +10,11 @@
 
 package FloatingClock;
 
-import java.awt.AlphaComposite;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.Rectangle;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JPopupMenu;
-import javax.swing.JMenuItem;
-import java.awt.GraphicsEnvironment;
-import java.awt.GraphicsDevice;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.util.Date;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import javax.swing.SwingUtilities;
-import javax.swing.plaf.metal.*;
-import javax.swing.UIManager;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.awt.Point;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.GraphicsEnvironment;
-import java.awt.GraphicsDevice;
+import javax.swing.*;
+import java.util.*;
+import java.text.*;
+import java.io.*;
+import java.awt.*;
 
 
 
